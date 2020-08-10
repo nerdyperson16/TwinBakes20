@@ -251,7 +251,4 @@ img#logo_picture {
     #navigation a.responsivenav {
         display: none;
     }
-    body {
-        min-width: 714px;
-    }
 }
