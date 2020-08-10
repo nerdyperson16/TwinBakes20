@@ -142,6 +142,9 @@ img#logo_picture {
     width: 100%;
     text-align: center;
 }
+#facebook_reviews iframe {
+    max-width: 100%;
+}
 
 /* Product card */
 .card {
@@ -250,5 +253,11 @@ img#logo_picture {
 @media screen and (max-width:714px) {
     #navigation a.responsivenav {
         display: none;
+    }
+    body {
+        min-width: 690px;
+    }
+    #navigation a {
+        white-space: nowrap;
     }
 }
