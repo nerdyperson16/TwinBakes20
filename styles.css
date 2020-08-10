@@ -254,10 +254,12 @@ img#logo_picture {
     #navigation a.responsivenav {
         display: none;
     }
-    body {
-        min-width: 690px;
-    }
     #navigation a {
         white-space: nowrap;
+        text-align: center;
+    }
+    #navigation {
+        margin: 0;
+        text-align: center;
     }
 }
