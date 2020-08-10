@@ -248,6 +248,10 @@ img#logo_picture {
         background-size: cover;
         position: relative;
     }
+    #navigation a {
+        text-align: center;
+        width: 22%;
+    }
 }
 
 @media screen and (max-width:714px) {
@@ -255,8 +259,8 @@ img#logo_picture {
         display: none;
     }
     #navigation a {
-        white-space: nowrap;
         text-align: center;
+        width: 20%;
     }
     #navigation {
         margin: 0;
