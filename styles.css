@@ -172,7 +172,8 @@ p.quote {
 }
 .shorten_selection p {
     font-size: 15px;
-    color: lightseagreen;
+    color: grey;
+    font-weight: normal;
 }
 
 /* Product card */
@@ -211,6 +212,7 @@ p.quote {
     color: grey;
     font-size: 22px;
     font-family: Arial;
+    font-weight: bold;
 }
 .status {
     color: red;
