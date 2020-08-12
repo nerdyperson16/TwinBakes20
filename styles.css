@@ -195,6 +195,7 @@ p.quote {
 .price {
     color: grey;
     font-size: 22px;
+    font-family: Arial;
 }
 .status {
     color: red;
