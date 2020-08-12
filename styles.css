@@ -160,6 +160,12 @@ p.quote {
     max-width: 100%;
 }
 
+/* Menu prices discretion */
+#prices_discretion {
+    font-family: 'Pangolin', cursive;
+    font-weight: bold;
+}
+
 /* Product card */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -229,6 +235,10 @@ p.quote {
 }
 .bold_text {
     font-weight: bold;
+}
+#contact_information a {
+    color: black;
+    text-decoration: none;
 }
 
 /* For technology devices */
