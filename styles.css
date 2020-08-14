@@ -63,18 +63,11 @@ p.skipnavigation a:focus {
 }
 
 /* Header section */
-#logo_picture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 img#logo_picture {
-    width: 7%;
+    width: 8%;
 }
 #logo_image_center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 /* Navigation section */
@@ -147,7 +140,7 @@ p.quote {
     font-style: italic;
 }
 
-/* Facebook reviews */
+/* Reviews section */
 #reviews_topic {
     text-align: center;
     font-family: 'Pangolin', cursive;
@@ -158,6 +151,13 @@ p.quote {
 }
 #facebook_reviews iframe {
     max-width: 100%;
+}
+#outside_reviews {
+    width: 100%;
+    text-align: center;
+}
+#outside_reviews img {
+    width: 25%;
 }
 
 /* Menu prices discretion */
@@ -270,6 +270,13 @@ p.quote {
     }
     #facebook_api {
         display: block;
+    }
+    #outside_reviews img {
+        width: 75%;
+        display: block;
+        margin: 1%;
+        margin-left: auto;
+        margin-right: auto;
     }
     #instagram_api {
         display: block;
