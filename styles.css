@@ -34,6 +34,25 @@ p.skipnavigation a:focus {
     float: left;
 }
 
+/* Back to top - skip navigation */
+#skipNav {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+#skipNav:hover {
+    background-color: #555;
+}
+
 /* Video section */
 #myVideo {
     position: fixed;
@@ -159,6 +178,145 @@ p.quote {
 #outside_reviews img {
     width: 25%;
 }
+#outside_reviews video {
+    width: 25%;
+}
+
+/* Reviews section - slideshow section */
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.prev {
+    left: 0;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {
+        font-size: 11px;
+    }
+}
+
+/* Reviews section - slideshow section - 2 */
+.mySlides2 {
+    display: none;
+}
+img.secondaryimage {
+    vertical-align: middle;
+}
+.slideshow-container2 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.prev2, .next2 {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.prev2 {
+    left: 0;
+}
+.next2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev2:hover, .next2:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.dot2 {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot2:hover {
+    background-color: #717171;
+}
+.fade2 {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade2 {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+@keyframes fade2 {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev2, .next2,.text2 {
+        font-size: 11px;
+    }
+}
 
 /* Menu prices discretion */
 #prices_discretion {
@@ -275,6 +433,11 @@ p.quote {
         width: 75%;
         display: block;
         margin: 1%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #outside_reviews video {
+        width: 75%;
         margin-left: auto;
         margin-right: auto;
     }
