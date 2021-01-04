@@ -164,13 +164,6 @@ p.quote {
     text-align: center;
     font-family: 'Pangolin', cursive;
 }
-#facebook_reviews {
-    width: 100%;
-    text-align: center;
-}
-#facebook_reviews iframe {
-    max-width: 100%;
-}
 #outside_reviews {
     width: 100%;
     text-align: center;
